@@ -1,0 +1,28 @@
+/*Owl Carousel*/
+@import '../vendor/wow/css/libs/animate.css';
+@import '../vendor/owl-carousel/owl.carousel.css';
+@import '../vendor/owl-carousel/owl.theme.default.css';
+/*@import '../vendor/OwlCarousel/owl.carousel.min';*/
+/*base*/
+@import 'base/_variables.scss';
+@import 'base/_base.scss';
+/*layouts*/
+@import 'layouts/_header.scss';
+@import 'layouts/_footer.scss';
+/*modules*/
+@import 'modules/_firstSection.scss';
+@import 'modules/_twoSection.scss';
+@import 'modules/_servicesSection.scss';
+@import 'modules/_videoSection.scss';
+@import 'modules/_portfolioSection.scss';
+@import 'modules/_teamSection.scss';
+@import 'modules/_statusSection.scss';
+@import 'modules/_workSection.scss';
+@import 'modules/_pricingSection.scss';
+@import 'modules/_testimonSection.scss';
+@import 'modules/_whychooseSection.scss';
+@import 'modules/_blogSection.scss';
+@import 'modules/_subscrSection.scss';
+@import 'modules/_contactSection.scss';
+@import 'base/_media.scss';
+

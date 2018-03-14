@@ -1,0 +1,34 @@
+/* --- begin statusSection -- */
+.statusSection {
+  position: relative;
+  background-image: url('../img/bg_status.jpg');
+  background-size: cover;
+  &__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;   
+    .box {
+      padding: 15px;
+      width: 25%;
+      min-width: 150px;
+      z-index: 1;
+      text-align: center;
+      .icon-circle-slelected{
+        font-size: 20px;
+        height: 20px;
+      }
+      .title {
+        color: $white;  
+        margin-top: 25px; 
+        margin-bottom: 25px;            
+      }
+      .text  {
+        font-size: 20px;
+        color: $whiteA;     
+        margin-bottom: 30px;             
+      }          
+    }      
+  }
+}
+/* --- end statusSection -- */

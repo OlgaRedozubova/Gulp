@@ -1,0 +1,113 @@
+
+@media  screen and (max-width: 360px){
+  h1, h2 { font-size: 30px; }
+  .section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }  
+  .sub_h2 { line-height: 1.4;}
+  .twoSection { 
+    .wrapper {
+      flex-direction: column;
+      .right {
+        padding: 0 15px;
+        margin-left: 0;
+        height: 100%;
+      }
+    }
+  }
+  .teamSection {
+    &__container {
+      padding: 10px 15px;
+      .row {
+        display: block;
+        &__left { width: auto;}
+        &__ico { 
+          width: auto;
+          float: left;
+        }
+        &__right { 
+          width: auto;
+          float: left;
+        }
+      }
+    }
+  }
+  .workSection__row .box .content .row__left .number {
+    margin-top: 0;
+  }
+  .testimonSection {
+    .slider {
+      &__right {
+        padding: 15px;
+      }
+    }
+  }
+  .whychooseSection {
+    .sectionFooter {
+      margin-top: 0;
+      flex-direction: column;
+      h4 {
+        font-size: 20px;
+        margin-right: 0;
+      }
+    }
+  }
+  .blogSection {
+    &__row {
+      .left {
+        margin-bottom: 15px;
+      }
+    }
+  }  
+  .footer {
+    &__row {
+      flex-direction: column;
+      .box {
+        width: 100%;
+        text-align: center;
+        &.red {
+          img {
+            margin: auto;
+          }
+        }
+
+      }
+    }
+  }
+} 
+
+@media screen and (max-width: 640px){
+  .subscrSection {
+    h3 {
+      margin-bottom: 15px;
+      font-size: 20px;
+    }    
+    &__row {
+      .input-box {border-radius: 30px;}
+      .customBtn {border-radius: 30px;}
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .testimonSection {
+    .slider {
+      &__left {
+        display: none;
+      }
+      &__right {
+        img {
+          max-height: 200px;
+          width: 115px;
+          display: block;
+          float: left;
+          margin-right: 20px;
+        }
+      }      
+    }
+  }
+  .owl-dots { 
+    bottom: -3%;
+  }   
+}

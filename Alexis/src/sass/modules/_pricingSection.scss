@@ -1,0 +1,116 @@
+/* --- begin pricingSection --- */
+.pricingSection {
+  background-color: $bg_services;
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -15px;
+    margin-right: -15px;
+    .box {
+      position: relative;
+      text-align: center;
+      flex: 1;
+      margin: 0 15px;
+      min-width: 300px;
+      max-width: 360px;
+      height: 580px;
+      padding: 30px 0 30px 0;       
+      background-color: $white;
+      box-shadow: $box-shadow;
+      &__circle {
+        border-radius: 50%;
+        width: 116px;
+        height: 116px;
+        margin: 0 auto 20px auto; 
+        &.green {
+          border: 3px solid $green;         
+          box-shadow: 0px 0px 3px 0px $green;
+        }  
+        &.red {
+          border: 3px solid $red;         
+          box-shadow: 0px 0px 3px 0px $red;            
+        }
+        &.purple {
+          border: 3px solid $purple;         
+          box-shadow: 0px 0px 3px 0px $purple;            
+        }            
+        .price {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          border: 3px solid $white;            
+          border-radius: 50%;
+          width: 110px;
+          height: 110px;         
+          &.green {background-color: $green;}
+          &.red {background-color: $red;}
+          &.purple {background-color: $purple;}
+          .money {
+            font-size: 25px;
+            color: $white;
+          }
+          .text {
+            color: $white;              
+          }
+        }
+      }
+      &__list {
+        color: $grey3;
+        .icon {
+          font-size: 30px;
+          line-height: 0.5;
+          vertical-align: -webkit-baseline-middle;
+        }
+        p {
+          font-size: 15px;
+          color: $grey2;
+          margin-bottom: 15px;
+          span {
+            font-weight: 500;
+            color: $grey3;
+          }
+        }         
+      }
+      .customBtn {
+        background-color: $white;
+        position: absolute;
+        left: 50%;
+        bottom: 40px;
+        min-width: 200px;
+        transform: translateX(-50%);        
+        &.green {
+          color: $green;
+          border: 3px solid $green;
+        }
+        &.red {
+          color: $red;
+          border: 3px solid $red;
+        }
+        &.purple {
+          color: $purple;
+          border: 3px solid $purple;
+        }                    
+      }
+      &:hover {
+        .customBtn {
+          color: $white;
+          &.red {
+            background-color: $red;
+            border: 3px solid $red;
+          }
+          &.green {
+            background-color: $green;
+            border: 3px solid $green;
+          }          
+          &.purple {
+            background-color: $purple;
+            border: 3px solid $purple;
+          }           
+        }
+      }       
+    }      
+  }
+}
+/* --- end pricingSection --- */

@@ -1,0 +1,80 @@
+/* --- begin portfolioSection --- */
+.portfolioSection{
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -5px;
+    margin-right: -5px;
+    .box {
+      margin: 0 5px 10px 5px;
+      width: calc(33.3% - 10px);
+      max-width: 360px;
+      min-width: 300px;
+      max-height: 288px;
+      position: relative;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+      .hideBlock {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background: $bg_hide;
+        height: 100%;
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        box-shadow: $box-shadow;
+        transition: 0.3s;      
+        .head {
+          height: 100%;
+          display: flex;
+          transition: 0.3s;
+          align-items: center;
+          justify-content: center;
+          .icon {
+            font-size: 75px;
+            height: 75px;
+            color: $white;
+          }      
+        }    
+        .footer {       
+          position: relative;
+          padding: 26px 0;
+          background: $white;
+          transition: 0.7s;
+          text-align: center;
+          p {
+            font-size: 18px;
+            color: $grey;       
+          }
+          &:after {
+            width: 100%;
+            height: 3px;        
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: "";
+            background-image: $line_colors;
+          }        
+        }      
+      }
+      &:hover .hideBlock {
+        opacity: 1;
+        visibility: visible;
+      }
+      &:hover .hideBlock .head {
+        margin-top: 0;
+      }    
+      &:hover .hideBlock .footer {
+        margin-top: 0;
+      }     
+    }
+  }
+}
+/* --- end portfolioSection --- */

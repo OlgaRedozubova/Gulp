@@ -1,0 +1,215 @@
+.customBtn{
+  font-size: 16px;
+  border-radius: 25px;
+  display: inline-block;
+  min-width: 40px;
+  text-align: center;
+  padding: 15px 40px;
+  color: $white;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 500;
+  &.red{
+    background-color: $red;
+  }  
+}
+.section {
+  padding-top: 114px;
+  padding-bottom: 150px;
+}
+.wrapper {
+  max-width: $width-desktop;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.sectionHeader {
+  margin-bottom: 25px;
+  &.center{
+    text-align: center;
+  }
+}
+.sub_h2 {
+  font-size: 18px;
+  color: $grey2;
+  line-height: 4.444;
+}
+.bg_grey {
+  &:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $bg_grey;
+  }
+}
+
+.border-top {
+  &.red { border-top: 3px solid $red;}
+  &.green { border-top: 3px solid $green;}        
+  &.purple { border-top: 3px solid $purple;}
+  &.orange { border-top: 3px solid $orange;}
+}
+
+.border-bottom {
+  &.red { border-bottom: 3px solid $red;}
+  &.green { border-bottom: 3px solid $green;}        
+  &.purple { border-bottom: 3px solid $purple;}
+  &.orange { border-bottom: 3px solid $orange;}
+}
+
+.gradient {
+  &:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+  } 
+  &.red:after {
+    background: linear-gradient($white, $red);
+  }
+  &.green:after {
+    background: linear-gradient($white, $green);
+  }
+  &.purple:after {
+    background: linear-gradient($white, $purple);
+  }
+  &.orange:after {
+    background: linear-gradient($white, $orange);
+  }   
+  &.grey:after {
+    background: linear-gradient($white, $grey);
+  }      
+}
+/*-----------------*/
+
+.icon {
+  /*overflow: hidden;*/
+  font-size: 55px;
+  height: 55px;
+  &.red {
+    color: $red !important
+  }
+  &.green {
+    color: $green !important
+  }
+  &.purple {
+    color: $purple !important
+  }
+  &.orange {
+    color: $orange !important
+  }   
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "templateocean-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-angle-down:before {
+  content: "\e032";
+}
+
+.icon-graph2:before {
+  content: "\e022";
+}
+.icon-money-regular:before {
+  content: "\e0a2";
+}
+.icon-basic-clock:before {
+  content: "\e00d";
+}
+.icon-check:before {
+  content: "\e04b";
+}
+.icon-map-regular:before {
+  content: "\e01e";
+}
+.icon-unie16d:before {
+  content: "\e073";
+}
+.icon-basic-postcard-multiple:before {
+  content: "\e079";
+}
+.icon-photo:before {
+  content: "\e07f";
+}
+.icon-music-play-button:before {
+  content: "\e249";
+}
+.icon-arrows-circle-plus:before {
+  content: "\e045";
+}
+.icon-share:before {
+  content: "\e16b";
+}
+.icon-social-facebook-square:before {
+  content: "\e173";
+}
+.icon-social-twitter-square:before {
+  content: "\e177";
+}
+.icon-social-linkedin-square:before {
+  content: "\e180";
+}
+.icon-social-instagram-square:before {
+  content: "\e18d";
+}
+.icon-graph-regular:before {
+  content: "\e020";
+}
+.icon-add-user-regular:before {
+  content: "\e001";
+}
+.icon-like:before {
+  content: "\e059";
+}
+.icon-gift-regular:before {
+  content: "\e0c4";
+}
+.icon-circle-slelected:before {
+  content: "\e101";
+}
+.icon-edit:before {
+  content: "\e024";
+}
+.icon-exapnd2:before {
+  content: "\e0ec";
+}
+.icon-display1:before {
+  content: "\e026";
+}
+.icon-date:before {
+  content: "\e164";
+}
+.icon-medal:before {
+  content: "\e116";
+}
+.icon-sb-facebook:before {
+  content: "\e174";
+}
+.icon-sb-twitter:before {
+  content: "\e179";
+}
+.icon-sb-instagram:before {
+  content: "\e18e";
+}
+.icon-sb-google-plus:before {
+  content: "\e18a";
+}
+.icon-menu:before {
+  content: "\e115";
+}

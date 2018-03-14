@@ -1,0 +1,41 @@
+/* begin footer*/
+.footer {
+  background-color: $grey_blue;
+  &__row {
+    display: flex;
+    justify-content: center;
+    .box{
+      width: 25%;
+      padding: 40px;
+      &.red {
+        display: flex;
+        align-items: center;
+        img {
+          max-height: 50px;
+        }
+      }
+      &__title {
+        margin-bottom: 20px;
+        &.green {
+          color: $green;
+        }
+        &.purple {
+          color: $purple;
+        }
+        &.orange {
+          color: $orange;
+        }
+      }
+      &__text {
+        color: $white;
+      }
+      .icon {
+        font-size: 35px;
+        height: 35px;
+        color: $white;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+/* end footer*/

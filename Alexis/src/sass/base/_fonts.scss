@@ -1,0 +1,48 @@
+/*@import "node_modules/font-awesome/scss/font-awesome.scss";*/
+
+@font-face {
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-style: normal;  	
+	src: url('../fonts/Poppins-Regular.eot') format('eot'), 
+			 url('../fonts/Poppins-Regular.woff') format('woff'), 
+			 url('../fonts/Poppins-Regular.ttf') format('truetype'), 
+			 url('../fonts/Poppins-Regular.svg') format('svg');
+}
+@font-face {
+	font-family: 'Poppins';	
+	font-weight: 500;//semibold
+	font-style: normal; 
+	src: url('../fonts/Poppins-Regular.eot') format('eot'),
+			 url('../fonts/Poppins-Regular.woff') format('woff'), 
+			 url('../fonts/Poppins-Regular.ttf') format('truetype'), 
+			 url('../fonts/Poppins-Regular.svg') format('svg');
+}
+@font-face {
+	font-family: 'LibreBaskerville';
+	font-weight: normal;
+	font-style: normal;	
+	src: url('../fonts/LibreBaskerville-Regular.eot') format('eot'), 
+			 url('../fonts/LibreBaskerville-Regular.woff') format('woff'), 
+			 url('../fonts/LibreBaskerville-Regular.ttf') format('truetype'), 
+			 url('../fonts/LibreBaskerville-Regular.svg') format('svg');
+}
+
+@font-face {
+	font-family: 'templateocean-font';
+	font-weight: normal;
+	font-style: normal;	
+	src: url('../fonts/templateocean-font.eot') format('eot'), 
+			 url('../fonts/templateocean-font.woff') format('woff'), 
+			 url('../fonts/templateocean-font.ttf') format('truetype'), 
+			 url('../fonts/templateocean-font.svg') format('svg');
+}
+@font-face {
+	font-family: 'Sacramento';
+	font-weight: normal;
+	font-style: normal;	
+	src: url('../fonts/Sacramento-Regular.eot') format('eot'), 
+			 url('../fonts/Sacramento-Regular.woff') format('woff'), 
+			 url('../fonts/Sacramento-Regular.ttf') format('truetype'), 
+			 url('../fonts/Sacramento-Regular.svg') format('svg');
+}

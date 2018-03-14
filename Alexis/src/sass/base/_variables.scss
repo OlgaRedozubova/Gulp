@@ -1,0 +1,67 @@
+$white: #ffffff;
+$whiteA:rgba(255, 255, 255, 0.702);
+$colorNav: #272727;
+$orange: #feb960;
+$yellow: #feb960;
+$green: #38c695;
+$purple: #b27cf5;
+$red: rgb(252, 95,69);/*#fc5f45;*/
+$grey: rgb(49, 49, 49);
+$grey2: rgb(97, 97, 97);
+$grey3: rgb(39, 39, 39);
+$grey4: rgb(204, 204, 204);
+$grey_blue: rgba(38, 39, 50, 0.85);
+$lightgrey: #a3a3a3;
+$lightred: #ae8a83;
+$colors: 'red' $red, 'green' $green, 'purple' $purple, 'orange' $orange;
+$bg_grey: rgba(38, 39, 50, 0.85);
+$bg_hide: rgba(2, 2, 2, 0.25);
+$light_text: rgb(224, 224, 224);
+$black: black;
+
+$bg_services: rgb(247, 247, 247);
+$line_colors: linear-gradient(to left, $red 0%, $red 25%, $green 25%, $green 50%, $purple 50%, $purple 75%, $orange 75%, $orange 100%);        
+
+$box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+$box-shadow2: inset 0 0 0 10px rgba(0, 0, 0, 0.2);
+$box-shadow3: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);         
+$width-desktop: 1170px;/*1140px;*/
+$width-mobile:640px;
+$width-nav: 780px;
+
+
+$small-screens: 768px;
+$medium-screens: 992px;
+$large-screens: 1200px;
+
+$spase_mob:15px;
+
+$mob_screen: 320px;
+$mobA_screen: 480px;
+$smileTab_screen: 600px;
+$tablet_screen: 768px;
+$tabletA_screen: 1024px;
+$pc_screen: 1280px;
+
+@mixin respond-to ($media) {
+	@if $media == mobile {
+		@media only screen and (max-width: $mob_screen) { @content;}
+	}
+	@else if $media == tablet {
+		@media only screen and (min-width: $mob_screen + 1 )
+		  and (max-width: $tablet_screen - 1) { @content;}
+	}
+	@else if $media == pc {
+		@media only screen and (mix-width: $tablet_screen) { @content;}
+	}	
+}
+
+@mixin respond-nav ($media) {
+	@if $media == medium-screens {
+		@media only screen and (max-width: $width-nav - 1) { @content;}
+	}
+	@else if $media == wide-screens {
+		@media only screen and (mix-width: $width-nav) { @content;}
+	}	
+}
+
