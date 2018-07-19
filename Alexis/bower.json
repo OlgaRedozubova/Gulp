@@ -1,9 +1,9 @@
 {
   "name": "GulpTemplate",
-  "description": "my first gulp file",
+  "description": "GulpTemplate for Alexis",
   "main": "index.js",
   "authors": [
-    "Sergey Koval"
+    "Olga Redozubova"
   ],
   "license": "ISC",
   "homepage": "",

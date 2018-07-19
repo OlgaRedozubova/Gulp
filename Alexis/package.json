@@ -1,12 +1,12 @@
 {
-  "name": "Project",
+  "name": "Alexis",
   "version": "1.0.0",
-  "description": "my first gulp file",
+  "description": "gulp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Sergey Koval",
+  "author": "Olga Redozubova",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.18.13",
